@@ -33,7 +33,7 @@ quadrant_counts <- df %>%
   summarise(count = n()) %>%
   ungroup()
 
-# === 2. 创建象限中心坐标（关键！） ===
+# === 2. 创建象限中心坐标 ===
 # 定义9个象限的中心坐标（x,y）
 quadrant_centers <- data.frame(
   quadrant = c(
